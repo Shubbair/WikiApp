@@ -21,17 +21,23 @@ const Home = () => {
         <div className="grid items-center justify-center gap-6 mx-6 my-32">
             <div className="mx-auto text-xl font-medium">Search for everything</div>
             <div className="grid grid-flow-row gap-8 sm:grid-cols-3">
-                <div className="grid place-items-center">
-                    <img src="science.png"/>
-                    <p>Sciense</p>
+                <div className="grid place-items-center ">
+                    <img src="science.png" className=""/>
+                    <div className="grid w-full p-2 -my-4 bg-yellow-400 rounded-b-lg sm:my-6 sm:rounded-none sm:bg-transparent place-items-center">
+                    <p className="">Sciense</p>
+                    </div>
                 </div>
                 <div className="grid place-items-center">
                     <img src="tech.png"/>
-                    <p className="bg-red-200">Technology</p>
+                    <div className="grid w-full p-2 -my-4 bg-yellow-400 rounded-b-lg sm:my-6 sm:rounded-none sm:bg-transparent place-items-center">
+                    <p className="">Technology</p>
+                    </div>
                 </div>
                 <div className="grid place-items-center">
                     <img src="persons.png"/>
-                    <p>Persons</p>
+                    <div className="grid w-full p-2 -my-4 bg-yellow-400 rounded-b-lg sm:my-6 sm:rounded-none sm:bg-transparent place-items-center">
+                    <p className="mx-auto">Persons</p>
+                    </div>
                 </div>
             </div>
         </div>
