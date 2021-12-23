@@ -41,6 +41,11 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <div className="grid items-center justify-center gap-6 mx-6 my-8 md:my-64">
+            <p className="grid md:text-4xl place-items-center">Still waiting!</p>
+            <p className="text-gray-700 md:text-2xl">Don’t waste your time, start discovering</p>
+            <button className="p-2 bg-yellow-400 rounded text-md btn btn-primary md:text-md lg:text-md lg:p-3">Discover</button>
+        </div>
         </>
      );
 }
