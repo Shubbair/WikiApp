@@ -10,23 +10,26 @@ const Home = () => {
                 <br/>
                 <button className="p-2 text-sm bg-yellow-400 rounded btn btn-primary md:text-md lg:text-md lg:p-3">Lets Discover ...</button>
             </div>
-            <div className="order-1 mx-6 my-4 sm:order-2">
-                <img src="hero_img.png" />
+            <div className="order-1 mx-6 my-4 transform sm:order-2 md:skew-y-3">
+            <div class="relative w-full hidden md:block">
+                <div class="absolute bg-yellow-400 rounded-full -top-10 -left-4 w-96 h-96 mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
+                </div>
+                <img src="hero_img.png" class="relative" />
             </div>
         </div>
         {/* Card Section */}
-        <div className="grid items-center justify-center gap-6 mx-6">
-            <div className="mx-auto text-xl">Search for everything</div>
+        <div className="grid items-center justify-center gap-6 mx-6 my-32">
+            <div className="mx-auto text-xl font-medium">Search for everything</div>
             <div className="grid grid-flow-row gap-8 sm:grid-cols-3">
-                <div className="">
+                <div className="grid place-items-center">
                     <img src="science.png"/>
                     <p>Sciense</p>
                 </div>
-                <div className="">
+                <div className="grid place-items-center">
                     <img src="tech.png"/>
-                    <p>Technology</p>
+                    <p className="bg-red-200">Technology</p>
                 </div>
-                <div className="">
+                <div className="grid place-items-center">
                     <img src="persons.png"/>
                     <p>Persons</p>
                 </div>
