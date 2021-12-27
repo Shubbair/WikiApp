@@ -15,7 +15,7 @@ class MyDocument extends Document {
           <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
           <link rel="stylesheet" href="css/tailwind.css"/>
         </Head>
-        <body>
+        <body className="dark:bg-gray-800">
           <Main />
           <NextScript />
         </body>

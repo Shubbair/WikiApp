@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between mx-6 my-12 text-sm font-light text-gray-700 md:text-base md:mx-12">
+        <div className="flex items-center justify-between mx-6 my-12 text-sm font-light text-gray-700 dark:text-gray-400 md:text-base md:mx-12">
             <div className="flex items-center justify-center">
                 <img
                     src="/logo.svg"
