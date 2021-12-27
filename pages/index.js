@@ -11,15 +11,15 @@ const Home = () => {
                 <button className="p-2 text-sm bg-yellow-400 rounded btn btn-primary md:text-md lg:text-md lg:p-3 dark:text-gray-800">Lets Discover ...</button>
             </div>
             <div className="order-1 mx-6 my-4 transform sm:order-2 md:skew-y-3">
-            <div class="relative w-full hidden md:block">
-                <div class="absolute bg-yellow-400 rounded-full -top-10 -left-4 w-96 h-96 mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
+            <div className="relative hidden w-full md:block">
+                <div className="absolute bg-yellow-400 rounded-full top-10 left-4 w-96 h-96 mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
                 </div>
-                <img src="hero_img.png" class="relative" />
+                <img src="hero_img.png" className="relative" />
             </div>
         </div>
         {/* Card Section */}
         <div className="grid items-center justify-center gap-6 mx-6 my-32">
-            <div className="mx-auto text-xl font-medium dark:text-gray-300 md:text-3xl">Search for everything</div>
+            <div className="mx-auto text-xl font-medium dark:text-gray-300 md:text-3xl md:my-16">Search for everything</div>
             <div className="grid grid-flow-row gap-8 sm:grid-cols-3">
                 <div className="grid place-items-center ">
                     <img src="science.png" className=""/>
